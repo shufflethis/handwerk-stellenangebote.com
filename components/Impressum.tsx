@@ -10,8 +10,8 @@ const Impressum: React.FC = () => {
           <h2 className="text-xl font-bold mb-2 text-gray-900">Angaben gemäß § 5 TMG</h2>
           <p>
             Handwerk Stellenangebote GmbH<br />
-            Musterstraße 123<br />
-            10115 Berlin<br />
+            Schliemannstraße 23<br />
+            10437 Berlin<br />
             Deutschland
           </p>
         </section>
@@ -19,7 +19,7 @@ const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Vertreten durch</h2>
           <p>
-            Max Mustermann (Geschäftsführer)<br />
+            Thomas Sander (Geschäftsführer)<br />
             Erika Musterfrau (Geschäftsführerin)
           </p>
         </section>
@@ -27,8 +27,8 @@ const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Kontakt</h2>
           <p>
-            Telefon: +49 (0) 30 12345678<br />
-            E-Mail: kontakt@handwerk-stellenangebote.com
+            Telefon: +49 30 403 6654 32<br />
+            E-Mail: info@socialmediaventure.com
           </p>
         </section>
 
@@ -37,15 +37,14 @@ const Impressum: React.FC = () => {
           <p>
             Eintragung im Handelsregister.<br />
             Registergericht: Amtsgericht Berlin-Charlottenburg<br />
-            Registernummer: HRB 123456
-          </p>
+            Registernummer: HRB 162557 B</p>
         </section>
 
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Umsatzsteuer-ID</h2>
           <p>
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-            DE 123 456 789
+            DE298885799
           </p>
         </section>
 
