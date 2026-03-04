@@ -3,6 +3,26 @@ import { Job, TradeSector } from './types';
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Fachkraft Stuckateur-Handwerk m/w/d',
+    company: 'Mauer Stuckateur GmbH',
+    location: 'Wangen im Allgäu',
+    type: 'Vollzeit',
+    category: 'Stuckateur/in',
+    datePosted: '2026-03-04',
+    isPromoted: true
+  },
+  {
+    id: '2',
+    title: 'Handwerker (m/w/d)',
+    company: 'TJ-Montageservice Küchenmontage',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    category: 'Tischler/in',
+    datePosted: '2026-03-04',
+    isPromoted: true
+  },
+  {
+    id: '3',
     title: 'Mitarbeiter (m/w/d) im Gartenservice und Handwerk',
     company: 'Norden gartenservice',
     location: 'Husum, Nordsee',
@@ -12,27 +32,27 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: true
   },
   {
-    id: '2',
+    id: '4',
     title: 'MetallbauermeisterB. Prof. Metallbauer-Handwerk (m/w/d)',
     company: 'E.D.E.L. Zeitarbeit GmbH',
     location: 'Augsburg, Bayern',
     type: 'Vollzeit',
     category: 'Metallbauermeister/in/Bachelor Professional im Metallbauer-Handwerk',
     datePosted: '2026-03-03',
-    isPromoted: true
+    isPromoted: false
   },
   {
-    id: '3',
+    id: '5',
     title: 'Kaufmann/-frau für Büromanagement im Handwerk',
     company: 'Werner & Sohn GmbH',
     location: 'Fuldatal',
     type: 'Vollzeit',
     category: 'Kaufmann/-frau - Büromanagement',
     datePosted: '2026-03-03',
-    isPromoted: true
+    isPromoted: false
   },
   {
-    id: '4',
+    id: '6',
     title: 'Ausbildung zum Elektroniker (m/w/d) im Handwerk',
     company: 'Schneider & Steffens GmbH & Co. KG',
     location: 'Lüneburg',
@@ -42,7 +62,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '5',
+    id: '7',
     title: 'Büroleiterin - Handwerk',
     company: 'OSNEBAU GmbH',
     location: 'Obertshausen',
@@ -52,7 +72,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '6',
+    id: '8',
     title: 'Elektroniker Automatisierungstechnik Handwerk (m/w/d)',
     company: 'Arena Personal Management GmbH',
     location: 'Frankfurt am Main',
@@ -62,7 +82,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '7',
+    id: '9',
     title: 'Metallbauer Handwerk m/w/d',
     company: 'Arena Personal Management GmbH',
     location: 'Heidelberg, Neckar',
@@ -72,7 +92,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '8',
+    id: '10',
     title: 'Allrounder – Handwerk (m/w/d)',
     company: 'STÜWA Konrad Stükerjürgen GmbH',
     location: 'Rietberg',
@@ -82,7 +102,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '9',
+    id: '11',
     title: 'Malerhelfer (m/w/d) Handwerk',
     company: 'WEISS Personalmanagement GmbH - Darmstadt',
     location: 'Darmstadt',
@@ -92,7 +112,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '10',
+    id: '12',
     title: 'Helfer Handwerk m/w/d',
     company: 'Actief Personalmanagement GmbH',
     location: 'Biebelried',
@@ -102,7 +122,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '11',
+    id: '13',
     title: 'Handwerker (m/w/d)',
     company: 'NKV GmbH',
     location: 'Melle, Wiehengeb',
@@ -112,7 +132,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '12',
+    id: '14',
     title: 'Mitarbeiter im Handwerk (m/w/d)',
     company: 'AlphaConsult KG - Magdeburg',
     location: 'Magdeburg',
@@ -122,7 +142,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '13',
+    id: '15',
     title: 'Fachhelfer Handwerk (m/w/d)',
     company: 'AlphaConsult KG - BS Mannheim',
     location: 'Mannheim',
@@ -132,7 +152,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '14',
+    id: '16',
     title: 'Mitarbeiter im Handwerk (m/w/d)',
     company: 'TimePartner Personalmanagement GmbH',
     location: 'Trier',
@@ -142,7 +162,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '15',
+    id: '17',
     title: 'Produktionsmitarbeiter (m/w/d) Handwerk',
     company: 'Walter-Fach-Kraft Personal GmbH',
     location: 'Syke',
@@ -152,7 +172,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '16',
+    id: '18',
     title: 'Maler im Handwerk (m/w/d)',
     company: 'ARWA Personaldienstleistungen GmbH',
     location: 'Sarstedt',
@@ -162,7 +182,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '17',
+    id: '19',
     title: 'Quereinsteiger m/w/d im Handwerk',
     company: 'Isolierungen Leipzig GmbH Abt. P',
     location: 'Leipzig',
@@ -172,7 +192,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '18',
+    id: '20',
     title: 'Elektroniker - Automatisierungstechnik (Handwerk) (m/w/d)',
     company: 'iperdi AHR GmbH - Niederlassung Bremen',
     location: 'Loxstedt',
@@ -182,7 +202,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '19',
+    id: '21',
     title: 'Quereinsteiger (m/w/d) im Handwerk',
     company: 'Office People GmbH Niederlassung Greven Personaldienstleitungen',
     location: 'Greven, Westfalen',
@@ -192,7 +212,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '20',
+    id: '22',
     title: 'Handwerk mit Haltung!',
     company: 'Ipek Sanierung GmbH',
     location: 'Bochum',
@@ -202,7 +222,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '21',
+    id: '23',
     title: 'Schlosser im Handwerk (m/w/d)',
     company: 'Arena Personal Management GmbH - Niederlassung Ludwigshafen',
     location: 'Heppenheim (Bergstraße)',
@@ -212,7 +232,7 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '22',
+    id: '24',
     title: 'Fachkraft im Handwerk (m/w/d)',
     company: 'persona service AG & Co. KG Leonberg',
     location: 'Leonberg, Württemberg',
@@ -222,33 +242,13 @@ export const MOCK_JOBS: Job[] = [
     isPromoted: false
   },
   {
-    id: '23',
+    id: '25',
     title: 'Praktikant im Handwerk (m/w/d)',
     company: 'Heinrich Schmid GmbH & Co. KG',
     location: 'Leipzig',
     type: 'Vollzeit',
     category: 'Maler- und Lackierermeister/in/Bachelor Professional im Maler- und Lackierer-Handwerk',
     datePosted: '2026-02-11',
-    isPromoted: false
-  },
-  {
-    id: '24',
-    title: 'Praktikant im Handwerk (m/w/d)',
-    company: 'Heinrich Schmid GmbH & Co. KG Innenausbau + Brandschutz',
-    location: 'Limbach-Oberfrohna',
-    type: 'Vollzeit',
-    category: 'Trockenbaumonteur/in',
-    datePosted: '2026-02-11',
-    isPromoted: false
-  },
-  {
-    id: '25',
-    title: 'Betriebsassistent/in - Handwerk',
-    company: 'Marche Restaurants Österreich GmbH',
-    location: 'Rannersdorf',
-    type: 'Vollzeit',
-    category: 'Betriebsassistent/in - Handwerk',
-    datePosted: '2026-02-06',
     isPromoted: false
   }
 ];
