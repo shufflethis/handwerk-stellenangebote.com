@@ -6,12 +6,16 @@ const apiKey = process.env.API_KEY || '';
 
 let ai: GoogleGenAI | null = null;
 if (apiKey) {
-  ai = new GoogleGenAI({ apiKey });
+  try {
+    ai = new GoogleGenAI({ apiKey });
+  } catch (error) {
+    console.error("Failed to initialize GoogleGenAI:", error);
+  }
 }
 
 export const generateJobAd = async (params: GenerateJobDescriptionParams): Promise<string> => {
   if (!ai) {
-    return "API Key fehlt. Bitte konfigurieren Sie den API Key in der Umgebung.";
+    return "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
   }
 
   const model = 'gemini-2.5-flash';

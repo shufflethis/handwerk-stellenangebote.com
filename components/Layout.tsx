@@ -132,7 +132,7 @@ const Layout: React.FC<LayoutProps> = ({ currentView, setView, children }) => {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center gap-2"><MapPin size={16} /> Schliemannstraße 23, 10437 Berlin</li>
                 <li className="flex items-center gap-2"><Phone size={16} /> +49 30 959 988 700</li>
-                <li className="flex items-center gap-2"><Users size={16} /> support@handwerk-jobs.de</li>
+                <li className="flex items-center gap-2"><Users size={16} /> info@socialmediaventure.com</li>
               </ul>
             </div>
           </div>
