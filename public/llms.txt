@@ -1,19 +1,42 @@
 # HR-UPDATER: v1.0
 # handwerk-stellenangebote.com - Handwerk Stellenangebote
 
-> handwerk-stellenangebote.com ist ein spezialisiertes Jobportal fuer Handwerk-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> handwerk-stellenangebote.com ist ein spezialisiertes Jobportal fuer Handwerk-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Handwerk
+- Spezialisiertes Jobportal fuer Handwerk-Stellenangebote
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- KI-gestuetzter Stellenanzeigen-Generator fuer Arbeitgeber
+- Berufsprofile und Karriere-Ratgeber fuer das Handwerk
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Telefon: +49 30 959 988 700
+- E-Mail: info@socialmediaventure.com
+- Handelsregister: HRB 162557 B, Amtsgericht Berlin-Charlottenburg
+- USt-IdNr.: DE298885799
+
+## Inhalte
+- Aktuelle Handwerk-Stellenangebote in Deutschland, Oesterreich und der Schweiz
+- Berufsprofile: Elektrotechnik, Sanitaer-Heizung-Klima, Bauhauptgewerbe, Holzgewerbe
+- Karriere-Ratgeber fuer Handwerker (Ausbildung, Weiterbildung, Meister)
+- Gehaltsvergleiche und Brancheninformationen
+- Regionale Jobsuche in allen deutschen Grossstaedten
 
 ## Kontakt
 - Website: https://handwerk-stellenangebote.com
-- Arbeitgeber-Kontakt: https://handwerk-stellenangebote.com/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://handwerk-stellenangebote.com/kontakt-bewerber
+- Arbeitgeber-Kontakt: https://handwerk-stellenangebote.com/#/kontakt
+- Impressum: https://handwerk-stellenangebote.com/#/impressum
+- Datenschutz: https://handwerk-stellenangebote.com/#/datenschutz
+- Autor: https://handwerk-stellenangebote.com/#/autor/thomas-sander
 
-## Inhalte
-- Aktuelle Handwerk-Stellenangebote
-- Karriere-Ratgeber fuer Handwerk
-- Gehaltsvergleiche und Brancheninformationen
+## Seiten
+- Startseite: https://handwerk-stellenangebote.com/
+- Stellenangebote: https://handwerk-stellenangebote.com/#/ (Stellenangebote-Bereich)
+- Kontakt: https://handwerk-stellenangebote.com/#/kontakt
+- Impressum: https://handwerk-stellenangebote.com/#/impressum
+- Datenschutz: https://handwerk-stellenangebote.com/#/datenschutz
+- Autor Thomas Sander: https://handwerk-stellenangebote.com/#/autor/thomas-sander

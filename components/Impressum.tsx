@@ -9,7 +9,7 @@ const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Angaben gemäß § 5 TMG</h2>
           <p>
-            Handwerk Stellenangebote GmbH<br />
+            Social Media Venture GmbH<br />
             Schliemannstraße 23<br />
             10437 Berlin<br />
             Deutschland
@@ -19,8 +19,7 @@ const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Vertreten durch</h2>
           <p>
-            Thomas Sander (Geschäftsführer)<br />
-            Erika Musterfrau (Geschäftsführerin)
+            Thomas Sander (Geschäftsführer)
           </p>
         </section>
 

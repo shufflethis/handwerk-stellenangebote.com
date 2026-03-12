@@ -46,12 +46,14 @@ const Hero: React.FC<HeroProps> = ({ setView }) => {
             </button>
           </div>
 
-          <div className="mt-8 flex items-center gap-6 text-sm font-semibold text-gray-300">
+          <div className="mt-8 flex flex-wrap items-center gap-3 md:gap-6 text-sm font-semibold text-gray-300">
             <span>Beliebt:</span>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap gap-2 md:gap-3">
               <button onClick={() => setView(View.JOBS)} className="hover:text-white underline decoration-handwerk-orange underline-offset-4">Elektriker</button>
               <button onClick={() => setView(View.JOBS)} className="hover:text-white underline decoration-handwerk-orange underline-offset-4">Anlagenmechaniker</button>
               <button onClick={() => setView(View.JOBS)} className="hover:text-white underline decoration-handwerk-orange underline-offset-4">Tischler</button>
+              <button onClick={() => setView(View.JOBS)} className="hover:text-white underline decoration-handwerk-orange underline-offset-4">Maurer</button>
+              <button onClick={() => setView(View.JOBS)} className="hover:text-white underline decoration-handwerk-orange underline-offset-4">SHK</button>
             </div>
           </div>
         </div>
