@@ -131,7 +131,7 @@ const Layout: React.FC<LayoutProps> = ({ currentView, setView, children }) => {
               <h3 className="font-bold text-lg mb-4 border-l-4 border-handwerk-orange pl-3">Kontakt</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center gap-2"><MapPin size={16} /> Handwerkstraße 1, 10437 Berlin</li>
-                <li className="flex items-center gap-2"><Phone size={16} /> +49 30 959 988 700</li>
+                <li className="flex items-center gap-2"><Phone size={16} /> +49 30 403 6654 32</li>
                 <li className="flex items-center gap-2"><Users size={16} /> support@handwerk-jobs.de</li>
               </ul>
             </div>

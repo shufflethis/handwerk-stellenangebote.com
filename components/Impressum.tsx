@@ -27,7 +27,7 @@ const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-bold mb-2 text-gray-900">Kontakt</h2>
           <p>
-            Telefon: +49 30 959 988 700<br />
+            Telefon: +49 30 403 6654 32<br />
             E-Mail: info@socialmediaventure.com
           </p>
         </section>
