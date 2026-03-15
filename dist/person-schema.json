@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://handwerk-stellenangebote.com/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "handwerk-stellenangebote.com",
+    "url": "https://handwerk-stellenangebote.com"
+  },
+  "description": "Gruender von handwerk-stellenangebote.com - spezialisiertes Jobportal fuer Handwerk-Stellenangebote.",
+  "knowsAbout": [
+    "Handwerk",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}
